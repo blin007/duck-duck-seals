@@ -1,0 +1,22 @@
+{
+    "heroTopData": {
+        "title": "Your Informant on Seals",
+        "overlay1": "/images/heroTop/overlay1.svg",
+        "overlay2": "/images/heroTop/overlay2.svg",
+        "sealImg": "/images/heroTop/seal.svg",
+        "diverImg": "/images/heroTop/diver.svg"
+    },
+    "heroBotData": {
+        "title": "And Ducks in the Wild"
+    },
+    "headerData": {
+        "duckIcon": "/images/header/duckIcon.svg",
+        "sealIcon": "/images/header/sealIcon.svg",
+        "logo": "/images/header/logo.svg"
+    },
+    "navData": [
+        {"name": "About", "href": "/"},
+        {"name": "Resources", "href": "/"},
+        {"name": "Contact Us", "href": "/"}
+    ]
+}

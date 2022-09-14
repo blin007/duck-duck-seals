@@ -1,4 +1,19 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply font-body font-normal text-base bg-background;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -23,4 +38,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
