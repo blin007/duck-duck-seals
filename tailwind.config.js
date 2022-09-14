@@ -23,7 +23,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        background: "#8ECEFF"
+        background: "#8ECEFF",
+        header: "#9cdbff",
+        headerText: "#144680",
+        scrollHeader: "#5c97db",
+        accent: {
+          DEFAULT: "#1d64b5",
+          hover: "#2b4399",
+          hoverHead: "#ccedff"
+        }
       },
       backgroundImage: {
         heroTop: "url('/images/heroTop/bg.svg')",

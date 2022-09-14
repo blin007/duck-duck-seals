@@ -16,6 +16,7 @@
     },
     "navData": [
         {"name": "About", "href": "/"},
+        {"name": "How to Help", "href": "/"},
         {"name": "Resources", "href": "/"},
         {"name": "Contact Us", "href": "/"}
     ]

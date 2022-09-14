@@ -11,13 +11,12 @@ import Resources from '../components/Resources'
 import Footer from '../components/Footer'
 
 //import data
-// import heroTopData from '../data.json'
-// import heroBotData from '../data.json'
-// import headerData from '../data.json'
-// import navData from '../data.json'
-import { heroTopData, heroBotData, headerData, navData } from '../data.json'
+import data from '../data.json'
 
 export default function Home() {
+  //destructure data json
+  const { heroTopData, heroBotData, headerData, navData } = data
+
   return (
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-background'>
       <HeroTop heroData={heroTopData} headerData={headerData} navData={navData}/>
@@ -35,10 +34,7 @@ export default function Home() {
 export const getStaticProps = async () => {
   return {
     props: {
-      heroTopData,
-      heroBotData,
-      headerData,  
-      navData,
+      data
     }
   }
 }
