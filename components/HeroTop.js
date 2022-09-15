@@ -11,10 +11,9 @@ import { container, sealHero, diverHero, fadeInFromDown, overlayTop, overlayBot 
 
 const HeroTop = ({ heroData, headerData, navData }) => {
     const{ title1, title2, overlay1, overlay2, overlayTest, sealImg, diverImg } = heroData
-    console.log("herodata: ", navData)
 
   return (
-    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40 '>
+    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px]'>
       <motion.div 
         variants={container}
         initial="initial"
@@ -30,14 +29,14 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         {/* Title for large screens */}
         <motion.h1 
           variants={fadeInFromDown}
-          className='hidden lg:flex justify-center text-primary text-center pt-[9.5rem]'
+          className='hidden lg:flex justify-center font-bold text-primary text-center pt-[9.5rem]'
         >
           {title1}
         </motion.h1>
         {/* Title for small screens */}
         <motion.h1 
           variants={fadeInFromDown}
-          className='lg:hidden text-primary text-center pt-[9.5rem]'
+          className='lg:hidden text-primary font-semibold text-center pt-[9.5rem]'
         >
           {title2}
         </motion.h1>

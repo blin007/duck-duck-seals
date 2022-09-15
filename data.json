@@ -9,7 +9,13 @@
         "diverImg": "/images/heroTop/diver.svg"
     },
     "heroBotData": {
-        "title": "And Ducks in the Wild"
+        "title": "And Ducks in the Wild",
+        "overlay1": "/images/heroBot/overlayTop.svg",
+        "overlay2": "/images/heroBot/overlay.svg",
+        "cattail": "/images/heroBot/cattail.svg",
+        "duck": "/images/heroBot/duck.svg",
+        "tree": "/images/heroBot/tree.svg",
+        "alert": "/images/heroBot/alert.svg"
     },
     "headerData": {
         "duckIcon": "/images/header/duckIcon.svg",

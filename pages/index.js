@@ -18,10 +18,9 @@ export default function Home() {
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-background'>
       <HeroTop heroData={heroTopData} headerData={headerData} navData={navData}/>
       {/* Show bottom hero on large screens */}
-      <div className='lg:flex hidden'>
+      <div className='max:hidden'>
         <HeroBottom heroData={heroBotData}/>
       </div>
-      
       <About />
       <Facts />
       <How />

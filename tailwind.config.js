@@ -20,6 +20,9 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      'max': {
+        max: '1024px'
+      }
     },
     extend: {
       colors: {
@@ -28,6 +31,7 @@ module.exports = {
         headerText: "#144680",
         scrollHeader: "#5c97db",
         primary: "#1D2F60",
+        light: "#c1d0f7",
         accent: {
           DEFAULT: "#1d64b5",
           hover: "#2b4399",
@@ -36,9 +40,12 @@ module.exports = {
       },
       backgroundImage: {
         heroTop: "url('/images/heroTop/bg.svg')",
+        heroBot: "url('/images/heroBot/bg-solid.svg')",
+
       },
       zIndex: {
         mid: "15",
+        top: "100"
       }
     },
   },
