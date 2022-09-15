@@ -16,7 +16,7 @@ const HeroBottom = ({ heroData }) => {
       initial="initial"
       whileInView={'animate'}
       viewport={{ once: false, amount: 0.6 }}
-      className='bg-heroBot bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[800px] lg:mb-40'
+      className='bg-heroBot bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40'
     >
       <motion.div
         className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[850px]'
@@ -24,7 +24,7 @@ const HeroBottom = ({ heroData }) => {
         {/* title */}
         <motion.h1 
           variants={fadeInFromUp}
-          className='absolute text-light font-bold text-center pt-[6.5rem] z-50 w-full'
+          className='absolute text-primary font-bold text-center pt-[6.5rem] z-50 w-full'
         >
           {title}
         </motion.h1>

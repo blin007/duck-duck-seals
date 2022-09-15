@@ -4,7 +4,8 @@ export const container = {
     animate: {
         transition: {
             staggerChildren: 0.5,
-            delayChildren: 0.5
+            delayChildren: 0.5,
+            duration: 2,
         }
     }
 }
