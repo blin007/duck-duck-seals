@@ -1,3 +1,4 @@
+// general container
 export const container = {
     initial: {},
     animate: {
@@ -8,7 +9,22 @@ export const container = {
     }
 }
 
-export const sealHero = {
+// Container for heroBot
+export const containerBot = {
+    initial: {
+        opacity: 0
+    },
+    animate: {
+        opacity: 1,
+        transition: {
+            duration: 2,
+            staggerChildren: 0.5,
+            delayChildren: 0.5
+        }
+    }
+}
+
+export const springFromLeft = {
     initial: {
         x: -150,
         opacity: 0
@@ -23,7 +39,7 @@ export const sealHero = {
     }
 }
 
-export const diverHero = {
+export const springFromRight = {
     initial: {
         x: 400,
         opacity: 0
@@ -68,7 +84,7 @@ export const overlayBot = {
     }
 }
 
-export const fadeInFromDown = {
+export const fadeInFromUp = {
     initial: {
         y: -50,
         opacity: 0,
@@ -83,7 +99,7 @@ export const fadeInFromDown = {
     },
 };
 
-export const fadeInFromUp = {
+export const fadeInFromDown = {
     initial: {
         y: 50,
         opacity: 0,

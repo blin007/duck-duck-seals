@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import Header from './Header'
 
 //import framer motion variants
-import { container, sealHero, diverHero, fadeInFromDown, overlayTop, overlayBot } from '../variants'
+import { container, springFromLeft, springFromRight, fadeInFromUp, overlayTop, overlayBot } from '../variants'
 
 const HeroTop = ({ heroData, headerData, navData }) => {
     const{ title1, title2, overlay1, overlay2, overlayTest, sealImg, diverImg } = heroData
@@ -21,21 +21,21 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[950px]'
       >
         <motion.div 
-          variants={fadeInFromDown}
+          variants={fadeInFromUp}
           className=""
         >
             <Header headerData={headerData} navData={navData} />
         </motion.div>
         {/* Title for large screens */}
         <motion.h1 
-          variants={fadeInFromDown}
+          variants={fadeInFromUp}
           className='hidden lg:flex justify-center font-bold text-primary text-center pt-[9.5rem]'
         >
           {title1}
         </motion.h1>
         {/* Title for small screens */}
         <motion.h1 
-          variants={fadeInFromDown}
+          variants={fadeInFromUp}
           className='lg:hidden text-primary font-semibold text-center pt-[9.5rem]'
         >
           {title2}
@@ -48,13 +48,13 @@ const HeroTop = ({ heroData, headerData, navData }) => {
           <Image src={overlay1} width={1730} height={900} />
         </motion.div>
         <motion.div 
-          variants={diverHero}
+          variants={springFromRight}
           className='hidden lg:flex absolute right-[8%] z-mid overflow-x-hidden'
         >
           <Image src={diverImg} width={520} height={520} />
         </motion.div>
         <motion.div
-          variants={sealHero} 
+          variants={springFromLeft} 
           className='hidden lg:flex absolute left-[8%] z-mid overflow-x-hidden'
         >
           <Image src={sealImg} width={520} height={520} />
