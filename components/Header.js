@@ -42,9 +42,9 @@ const Header = ({ headerData, navData }) => {
         </div>
         <div 
             onClick={() => setNavMobile(!navMobile)}
-            className='lg:hidden'
+            className='lg:hidden cursor-pointer'
         >
-            <AiOutlineMenu className="text-2xl"/>
+            <AiOutlineMenu className="text-2xl hover:text-white transition-all duration-300"/>
         </div>
         {/* nav mobile - hide on large screens */}
         <div className={`${navMobile ? 'max-h-[154px]' : 'max-h-0'}

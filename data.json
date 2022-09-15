@@ -1,8 +1,10 @@
 {
     "heroTopData": {
-        "title": "Your Informant on Seals",
+        "title1": "Your Informant on Seals",
+        "title2": "Your Informant on Seals and Ducks in the Wild",
         "overlay1": "/images/heroTop/overlay1.svg",
         "overlay2": "/images/heroTop/overlay2.svg",
+        "overlayTest":"/images/heroTop/overlayTest.svg",
         "sealImg": "/images/heroTop/seal.svg",
         "diverImg": "/images/heroTop/diver.svg"
     },

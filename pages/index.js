@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 //import components
 import HeroBottom from '../components/HeroBottom'
 import HeroTop from '../components/HeroTop'
@@ -20,7 +17,11 @@ export default function Home() {
   return (
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-background'>
       <HeroTop heroData={heroTopData} headerData={headerData} navData={navData}/>
-      <HeroBottom heroData={heroBotData}/>
+      {/* Show bottom hero on large screens */}
+      <div className='lg:flex hidden'>
+        <HeroBottom heroData={heroBotData}/>
+      </div>
+      
       <About />
       <Facts />
       <How />

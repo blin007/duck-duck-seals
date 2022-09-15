@@ -27,6 +27,7 @@ module.exports = {
         header: "#9cdbff",
         headerText: "#144680",
         scrollHeader: "#5c97db",
+        primary: "#1D2F60",
         accent: {
           DEFAULT: "#1d64b5",
           hover: "#2b4399",
@@ -35,7 +36,9 @@ module.exports = {
       },
       backgroundImage: {
         heroTop: "url('/images/heroTop/bg.svg')",
-
+      },
+      zIndex: {
+        mid: "15",
       }
     },
   },
