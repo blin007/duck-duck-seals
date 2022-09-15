@@ -18,14 +18,14 @@ export const sealHero = {
         opacity: 1,
         transition: {
             type: 'spring',
-            duration: 4
+            duration: 3
         }   
     }
 }
 
 export const diverHero = {
     initial: {
-        x: 100,
+        x: 400,
         opacity: 0
     },
     animate: {
@@ -33,18 +33,18 @@ export const diverHero = {
         opacity: 1,
         transition: {
             type: 'spring',
-            duration: 4
+            duration: 3
         }   
     }
 }
 
 export const overlayTop = {
     initial: {
-        // x: -2000,
+        x: -2000,
         opacity: 0
     },
     animate: {
-        // x: 0,
+        x: 0,
         opacity: 1,
         transition: {
             type: 'tween',
@@ -55,11 +55,11 @@ export const overlayTop = {
 
 export const overlayBot = {
     initial: {
-        // x: 2000,
+        x: 2000,
         opacity: 0
     },
     animate: {
-        // x: 0,
+        x: 0,
         opacity: 1,
         transition: {
             type: 'tween',
@@ -69,61 +69,61 @@ export const overlayBot = {
 }
 
 export const fadeInFromDown = {
-  initial: {
-    y: -50,
-    opacity: 0,
-  },
-  animate: {
+    initial: {
+        y: -50,
+        opacity: 0,
+    },
+    animate: {
+            y: 0,
+            opacity: 1,
+            transition: { 
+                type: 'tween', 
+                duration: 1.1 
+            },
+    },
+};
+
+export const fadeInFromUp = {
+    initial: {
+        y: 50,
+        opacity: 0,
+    },
+    animate: {
         y: 0,
         opacity: 1,
         transition: { 
             type: 'tween', 
             duration: 1.1 
         },
-  },
-};
-
-export const fadeInFromUp = {
-  initial: {
-    y: 50,
-    opacity: 0,
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: { 
-        type: 'tween', 
-        duration: 1.1 
     },
-  },
 };
 
 export const fadeInFromLeft = {
-  initial: {
-    x: 50,
-    opacity: 0,
-  },
-  animate: {
-    x: 0,
-    opacity: 1,
-    transition: { 
-        type: 'tween', 
-        duration: 1.1 
+    initial: {
+        x: 50,
+        opacity: 0,
     },
-  },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: { 
+            type: 'tween', 
+            duration: 1.1 
+        },
+    },
 };
 
 export const fadeInFromRight = {
-  initial: {
-    x: -50,
-    opacity: 0,
-  },
-  animate: {
-    x: 0,
-    opacity: 1,
-    transition: { 
-        type: 'tween', 
-        duration: 1.1 
+    initial: {
+        x: -50,
+        opacity: 0,
     },
-  },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: { 
+            type: 'tween', 
+            duration: 1.1 
+        },
+    },
 };

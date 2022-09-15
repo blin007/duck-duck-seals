@@ -14,12 +14,12 @@ const HeroTop = ({ heroData, headerData, navData }) => {
     console.log("herodata: ", navData)
 
   return (
-    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40 overflow-x-hidden'>
+    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40 '>
       <motion.div 
         variants={container}
         initial="initial"
         animate="animate"
-        className='container mx-auto min-h-[800px] lg:min-h-[950px] '
+        className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[950px]'
       >
         <motion.div 
           variants={fadeInFromDown}
@@ -30,21 +30,21 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         {/* Title for large screens */}
         <motion.h1 
           variants={fadeInFromDown}
-          className='hidden lg:flex justify-center text-primary max-w-[1280px] text-center pt-[9.5rem]'
+          className='hidden lg:flex justify-center text-primary text-center pt-[9.5rem]'
         >
           {title1}
         </motion.h1>
         {/* Title for small screens */}
         <motion.h1 
           variants={fadeInFromDown}
-          className='lg:hidden text-primary max-w-[1280px] text-center pt-[9.5rem]'
+          className='lg:hidden text-primary text-center pt-[9.5rem]'
         >
           {title2}
         </motion.h1>
         {/* Overlay Images */}
         <motion.div 
           variants={overlayTop}
-          className='hidden lg:flex -bottom-[30%] absolute -left-[10%] overflow-x-hidden'
+          className='hidden lg:flex -bottom-[12%] absolute -left-[10%] overflow-x-hidden'
         >
           <Image src={overlay1} width={1730} height={900} />
         </motion.div>
@@ -62,7 +62,7 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         </motion.div>
         <motion.div
           variants={overlayBot} 
-          className='hidden lg:flex -bottom-[45%] absolute -left-[10%] z-20 overflow-x-hidden'
+          className='hidden lg:flex -bottom-[28%] absolute -left-[10%] z-20 overflow-x-hidden'
         >
           <Image src={overlay2} width={1730} height={900} />
         </motion.div>
