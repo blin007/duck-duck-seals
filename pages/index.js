@@ -12,7 +12,7 @@ import data from '../data.json'
 
 export default function Home() {
   //destructure data json
-  const { heroTopData, heroBotData, headerData, navData } = data
+  const { heroTopData, heroBotData, headerData, navData, aboutData, factData, howData } = data
 
   return (
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-background'>
@@ -21,9 +21,9 @@ export default function Home() {
       <div className='max:hidden'>
         <HeroBottom heroData={heroBotData}/>
       </div>
-      <About />
-      <Facts />
-      <How />
+      <About aboutData={aboutData} />
+      <Facts factData={factData} />
+      <How howData={howData} />
       <Resources />
       <Footer />
     </div>

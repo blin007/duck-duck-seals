@@ -18,9 +18,9 @@ export const containerBot = {
     animate: {
         opacity: 1,
         transition: {
-            duration: 2,
-            staggerChildren: 0.5,
-            delayChildren: 0.5
+            duration: 1,
+            staggerChildren: 0.3,
+            delayChildren: 0.3
         }
     }
 }

@@ -13,7 +13,12 @@
   h1 {
     @apply text-[40px] sm:text-[50px] lg:text-[75px] leading-none;
   }
-
+  h3 {
+    @apply text-[20px] sm:text-[30px] lg:text-[45px] leading-none;
+  }
+  .btn {
+    @apply h-[60px] bg-accent py-[20px] px-[24px] text-white rounded-[5px] font-body uppercase tracking-[5%] text-base font-medium hover:bg-accent-hover flex items-center justify-center gap-6;
+  }
 }
 
 

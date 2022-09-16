@@ -5,7 +5,8 @@
         "overlay1": "/images/heroTop/overlay1.svg",
         "overlay2": "/images/heroTop/overlay2.svg",
         "sealImg": "/images/heroTop/seal.svg",
-        "diverImg": "/images/heroTop/diver.svg"
+        "diverImg": "/images/heroTop/diver.svg",
+        "btnText": "Click to get Started"
     },
     "heroBotData": {
         "title": "And Ducks in the Wild",
@@ -14,7 +15,8 @@
         "cattail": "/images/heroBot/cattail.svg",
         "duck": "/images/heroBot/duck.svg",
         "tree": "/images/heroBot/tree.svg",
-        "alert": "/images/heroBot/alert.svg"
+        "alert": "/images/heroBot/alert.svg",
+        "btnText": "Click to get started"
     },
     "headerData": {
         "duckIcon": "/images/header/duckIcon.svg",
@@ -26,5 +28,32 @@
         {"name": "How to Help", "href": "/"},
         {"name": "Resources", "href": "/"},
         {"name": "Contact Us", "href": "/"}
-    ]
+    ],
+    "aboutData": {
+        "title": "About us",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor at risus. In massa tempor nec feugiat.",
+        "boxDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At in tellus integer feugiat scelerisque varius morbi enim.",
+        "duck": "/images/about/duck.svg"
+    },
+    "factData" : {
+        "title": "Facts",
+        "facts": [
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
+            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."}
+        ]
+    },
+    "howData": {
+        "title": "How to Help",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor at risus. In massa tempor nec feugiat.",
+        "seal": "/images/how/seal.svg"        
+    }
 }
