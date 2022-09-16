@@ -15,10 +15,10 @@ const About = ({ aboutData }) => {
         variants={container}
         initial="initial"
         whileInView={"animate"}
-        viewport={{ once: false, amount: 0.6 }} 
+        viewport={{ once: false, amount: 0.4 }} 
         className='container mx-auto'
       >
-        <div className='flex flex-col lg:flex-row gap-x-[100px] lg:gap-y-[20px] justify-center items-center'>
+        <div className='flex flex-col lg:flex-row lg:gap-x-[100px] gap-y-[10px] justify-center items-center'>
           <motion.div variants={fadeInFromUp} className='flex-1 font-bold'>
             <h3 className='text-primary'>{title}</h3>
             <p className='font-light leading-[30px] max-w-[500px] lg:mt-[40px] mt-[20px] lg:mb-[50px] mb-[20px]'>
@@ -36,7 +36,7 @@ const About = ({ aboutData }) => {
           </motion.div>
           <motion.div 
             variants={springFromRight}
-            className='flex-1'
+            className='flex-1 flex justify-center'
           > 
             <Image src={duck} width={381} height={422} />
           </motion.div>

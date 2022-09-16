@@ -8,7 +8,7 @@ import { container, fadeInFromLeft, fadeInFromRight } from '../variants'
 const Facts = ({ factData }) => {
   const { title, facts } = factData
   return (
-    <section className='min-h-[200px] mt-[20px] mb-[20px]'>
+    <section className='min-h-[200px] mt-[20px] mb-[60px] lg:mb-[120px]'>
       <div className='container mx-auto'>
         <motion.div 
           variants={container}
@@ -18,12 +18,12 @@ const Facts = ({ factData }) => {
           className='flex flex-col lg:flex-row items-center justify-center'
         >
           <motion.div
-            variants={fadeInFromRight} 
+            variants={fadeInFromLeft} 
             className='lg:w-[20%] sm:mb-[20px]'
           >
             <h3 className='text-primary font-bold'>{title}</h3>
           </motion.div>
-          <motion.div variants={fadeInFromLeft} className='w-[80%] '>
+          <motion.div variants={fadeInFromRight} className='lg:w-[80%] w-[95%]'>
             <Slider facts={facts}/>
           </motion.div>
         </motion.div>

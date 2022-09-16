@@ -115,7 +115,7 @@ export const fadeInFromDown = {
     },
 };
 
-export const fadeInFromLeft = {
+export const fadeInFromRight = {
     initial: {
         x: 50,
         opacity: 0,
@@ -130,7 +130,7 @@ export const fadeInFromLeft = {
     },
 };
 
-export const fadeInFromRight = {
+export const fadeInFromLeft = {
     initial: {
         x: -50,
         opacity: 0,
