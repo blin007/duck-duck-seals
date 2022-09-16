@@ -7,8 +7,10 @@ import { motion } from 'framer-motion'
 //import variants
 import { containerBot, springFromLeft, springFromRight, fadeInFromUp} from '../variants'
 
+import { TbArrowBigRightLines } from "react-icons/tb";
+
 const HeroBottom = ({ heroData }) => {
-  const { title, overlay1, overlay2, cattail, duck, tree, alert } = heroData
+  const { title, overlay1, overlay2, cattail, duck, tree, alert, btnText } = heroData
 
   return (
     <motion.section 
@@ -19,7 +21,7 @@ const HeroBottom = ({ heroData }) => {
       className='bg-heroBot bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40'
     >
       <motion.div
-        className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[850px]'
+        className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[900px]'
       >
         {/* title */}
         <motion.h1 
@@ -41,6 +43,7 @@ const HeroBottom = ({ heroData }) => {
         >
           <Image src={overlay2} width={1728} height={694} />
         </motion.div>
+
         {/* Environment */}
         <motion.div 
           variants={springFromLeft}
@@ -79,6 +82,18 @@ const HeroBottom = ({ heroData }) => {
         >
           <Image src={alert} width={19} height={116} />
         </motion.div>
+        <motion.button 
+          variants={fadeInFromUp}
+          // initial="initial"
+          // animate='animate'
+          // whileInView={'animate'}
+          // viewport={{ once: false, amount: 0.6 }}
+          whileHover={{scale: 1.05}}
+          className='btn absolute mx-auto left-0 right-0 max-w-[300px] lg:top-[35%] top-[40%] drop-shadow-2xl z-20'
+        >
+          {btnText}
+          <TbArrowBigRightLines className='text-[30px]'/>
+        </motion.button>
       </motion.div>
     </motion.section>
   )

@@ -6,14 +6,16 @@ import { motion } from 'framer-motion'
 //Import components
 import Header from './Header'
 
+import { TbArrowBigRightLines } from "react-icons/tb";
+
 //import framer motion variants
 import { container, springFromLeft, springFromRight, fadeInFromUp, overlayTop, overlayBot } from '../variants'
 
 const HeroTop = ({ heroData, headerData, navData }) => {
-    const{ title1, title2, overlay1, overlay2, sealImg, diverImg } = heroData
+    const{ title1, title2, overlay1, overlay2, sealImg, diverImg, btnText } = heroData
 
   return (
-    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px]'>
+    <section className='bg-heroTop bg-no-repeat bg-left-bottom min-h-[500px] lg:min-h-[900px] h-[500px] sm:mb-[40px]'>
       <motion.div 
         variants={container}
 
@@ -32,7 +34,7 @@ const HeroTop = ({ heroData, headerData, navData }) => {
           // animate="animate"
           whileInView={'animate'}
           viewport={{ once: false, amount: 0.6 }}
-          className='hidden lg:flex justify-center font-bold text-primary text-center pt-[9.5rem]'
+          className='hidden lg:flex justify-center font-bold text-primary text-center pt-[9.5rem] drop-shadow-md'
         >
           {title1}
         </motion.h1>
@@ -43,7 +45,7 @@ const HeroTop = ({ heroData, headerData, navData }) => {
           // animate="animate"
           whileInView={'animate'}
           viewport={{ once: false, amount: 0.6 }}
-          className='lg:hidden text-primary font-semibold text-center pt-[9.5rem]'
+          className='lg:hidden text-primary font-semibold text-center pt-[9.5rem] drop-shadow-md'
         >
           {title2}
         </motion.h1>
@@ -56,6 +58,7 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         >
           <Image src={overlay1} width={1730} height={900} />
         </motion.div>
+        {/* diver image */}
         <motion.div 
           variants={springFromRight}
           initial="initial"
@@ -66,6 +69,20 @@ const HeroTop = ({ heroData, headerData, navData }) => {
         >
           <Image src={diverImg} width={520} height={520} />
         </motion.div>
+        <motion.button 
+          variants={fadeInFromUp}
+          initial="initial"
+          // animate='animate'
+          whileInView={'animate'}
+          viewport={{ once: false, amount: 0.6 }}
+          whileHover={{scale: 1.05}}
+          className='lg:hidden btn absolute mx-auto left-0 right-0 max-w-[300px] lg:top-[35%] top-[40%] drop-shadow-2xl z-20'
+        >
+          {btnText}
+          <TbArrowBigRightLines className='text-[30px]'/>
+        </motion.button>
+
+        {/* seal image */}
         <motion.div
           variants={springFromLeft} 
           initial="initial"
