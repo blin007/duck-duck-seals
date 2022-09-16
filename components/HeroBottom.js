@@ -18,7 +18,7 @@ const HeroBottom = ({ heroData }) => {
       initial="initial"
       whileInView={'animate'}
       viewport={{ once: false, amount: 0.6 }}
-      className='bg-heroBot bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-40'
+      className='bg-heroBot bg-no-repeat bg-left-bottom min-h-[600px] lg:min-h-[900px] lg:mb-[20px]'
     >
       <motion.div
         className='container mx-auto max-w-[1600px] relative min-h-[800px] lg:min-h-[900px]'
