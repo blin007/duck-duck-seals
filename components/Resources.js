@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Link from 'next/link'
 import Image from 'next/image'
 
 import { motion } from 'framer-motion'
@@ -11,7 +10,7 @@ const Resources = ({ resourceData }) => {
   const { title, description, resources } = resourceData
 
   return (
-    <section className='mb-[60px] lg:mb-[100px] min-h-[600px]'>
+    <section className='mb-[60px] min-h-[600px]'>
       <motion.div
         variants={container}
         initial="initial"
@@ -39,14 +38,14 @@ const Resources = ({ resourceData }) => {
                   key={i}
                 >
                   <p className='lg:mb-[20px] mb-[5px]'>{resource.name}</p>
-                  <Link href={resource.site}>
+                  <a href={resource.site} target="_blank" rel="noopener noreferrer">
                     <motion.div 
                       initial={{scale: 1}}
-                      whileHover={{scale: 1.05, cursor: 'pointer'}}
+                      whileHover={{ scale: 1.05, cursor: 'pointer' }}
                       classname=''>
                       <Image src={resource.logo} width={180} height={180} />
                     </motion.div>
-                  </Link>
+                  </a>
                 </motion.div>
               )
             })}

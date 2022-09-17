@@ -81,5 +81,19 @@
                 "site": "https://www.pinnipeds.org/"
             }
         ]
+    },
+    "contactData": {
+        "duckies": "/images/contact/duckies.svg",
+        "title": "Contact Us",
+        "form": {
+            "name": "Name",
+            "placeHolderName": "Your Name...",
+            "email": "Email",
+            "placeHolderEmail": "Your Email...",
+            "btnText": "Submit"
+        }
+    },
+    "footerData": {
+        "logo": "/images/contact/logo.svg"
     }
 }

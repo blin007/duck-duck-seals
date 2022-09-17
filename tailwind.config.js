@@ -41,7 +41,7 @@ module.exports = {
       backgroundImage: {
         heroTop: "url('/images/heroTop/bg.svg')",
         heroBot: "url('/images/heroBot/bg-solid.svg')",
-
+        contact: "url('/images/contact/card.svg')"
       },
       zIndex: {
         mid: "15",

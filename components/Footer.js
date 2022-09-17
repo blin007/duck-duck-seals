@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ logo }) => {
   return (
     <div>Footer</div>
   )
