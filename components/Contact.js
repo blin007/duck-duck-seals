@@ -11,7 +11,7 @@ const Contact = ({ contactData }) => {
   const { duckies, title, form } = contactData
 
   return (
-    <section className='bg-accent lg:bg-transparent lg:bg-contact lg:bg-no-repeat lg:bg-left-bottom lg:min-h-[750px] pt-12 lg:pt-0 relative mb-[10px]'>
+    <section className='bg-accent lg:bg-transparent lg:bg-contact lg:bg-no-repeat lg:bg-left-bottom lg:min-h-[750px] pt-12 max:pb-10 lg:pt-0 relative mb-[10px]'>
       <motion.div 
         variants={container}
         initial="initial"
@@ -26,7 +26,7 @@ const Contact = ({ contactData }) => {
           {title}
         </motion.h3>
         {/* form container */}
-        <div className='mt-40 flex flex-col lg:flex-row items-center lg:gap-x-10 gap-y-10 lg:gap-y-0 '>
+        <div className='lg:mt-40 mt-[20px] flex flex-col lg:flex-row items-center lg:gap-x-10 gap-y-10 lg:gap-y-0 '>
           {/* duckies */}
           <motion.div
             variants={fadeInFromLeft} 
