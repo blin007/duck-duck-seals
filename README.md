@@ -5,7 +5,7 @@
 </div>
 
 ## Deploy
-[View the deploy to see the animations]()
+[View the deploy to see the animations](https://duck-duck-seals.vercel.app/)
 
 ## Overview
 This site was created to help me learn NextJS and also show my appreciation for ducks and seals :)
