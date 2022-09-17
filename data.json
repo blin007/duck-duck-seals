@@ -2,26 +2,26 @@
     "heroTopData": {
         "title1": "Your Informant on Seals",
         "title2": "Your Informant on Seals and Ducks in the Wild",
-        "overlay1": "/images/heroTop/overlay1.svg",
-        "overlay2": "/images/heroTop/overlay2.svg",
-        "sealImg": "/images/heroTop/seal.svg",
-        "diverImg": "/images/heroTop/diver.svg",
+        "overlay1": "/static/images/heroTop/overlay1.svg",
+        "overlay2": "/static/images/heroTop/overlay2.svg",
+        "sealImg": "/static/images/heroTop/seal.svg",
+        "diverImg": "/static/images/heroTop/diver.svg",
         "btnText": "Click to get Started"
     },
     "heroBotData": {
         "title": "And Ducks in the Wild",
-        "overlay1": "/images/heroBot/overlayTop.svg",
-        "overlay2": "/images/heroBot/overlay.svg",
-        "cattail": "/images/heroBot/cattail.svg",
-        "duck": "/images/heroBot/duck.svg",
-        "tree": "/images/heroBot/tree.svg",
-        "alert": "/images/heroBot/alert.svg",
+        "overlay1": "/static/images/heroBot/overlayTop.svg",
+        "overlay2": "/static/images/heroBot/overlay.svg",
+        "cattail": "/static/images/heroBot/cattail.svg",
+        "duck": "/static/images/heroBot/duck.svg",
+        "tree": "/static/images/heroBot/tree.svg",
+        "alert": "/static/images/heroBot/alert.svg",
         "btnText": "Click to get started"
     },
     "headerData": {
-        "duckIcon": "/images/header/duckIcon.svg",
-        "sealIcon": "/images/header/sealIcon.svg",
-        "logo": "/images/header/logo.svg"
+        "duckIcon": "/static/images/header/duckIcon.svg",
+        "sealIcon": "/static/images/header/sealIcon.svg",
+        "logo": "/static/images/header/logo.svg"
     },
     "navData": [
         {"name": "Ecological Cornerstones", "href": "ecology"},
@@ -35,7 +35,7 @@
         "description2": "While seals help to maintain stability in the marine food chain, they also contribute greatly to the nutrient circulation in our oceans",
         "description3": "Ducks, particularly waterfowls, play a keyrole in wetland ecosystem. Ducks can introduce new species to new wetland environments. Due to their migratory behaviors, they often disperse nutrients or animals by accidently dropping them or just dropping their food remains. This can then increase biodiversity the of that region.",
         "boxDescription": "Climate Change has become the greatest threat to artic wildlife including seals. Furthermore, deforestation and wetland destruction poses a danger to ducks.",
-        "duck": "/images/about/duck.svg"
+        "duck": "/static/images/about/duck.svg"
     },
     "factData" : {
         "title": "Facts",
@@ -58,7 +58,7 @@
         "description1": "Historically, both ducks and seals faced threats from hunting. Fortunately, hunting is more regulated today. However, climate change still poses to be the greates threat for both ducks and seals. ",
         "description2": "To help conserve wetlands and ducks, Ducks Unlimited (DU) acquires and restores grasslands to improve duck nest survivability. ",
         "description3": "With the turn of the 21st century, seals are in even more danger due to the warming of the polar caps. Many Artic-dwelling pinnipeds rely on the ice to mate and forage for food.",
-        "seal": "/images/how/seal.svg"        
+        "seal": "/static/images/how/seal.svg"        
     },
     "resourceData": {
         "title": "Additional Resources",
@@ -66,28 +66,28 @@
         "resources": [
             {
                 "name": "The Marine Mammal Center",
-                "logo": "/images/resources/mmc.svg",
+                "logo": "/static/images/resources/mmc.svg",
                 "site": "https://www.marinemammalcenter.org/science-conservation/conservation/hawaiian-monk-seal-conservation"
             },
             {
                 "name": "Ducks Unlimited",
-                "logo": "/images/resources/ducks.svg",
+                "logo": "/static/images/resources/ducks.svg",
                 "site": "https://www.ducks.org/wetland-conservation?poe=home"
             },
             {
                 "name": "World Wildlife Fund",
-                "logo": "/images/resources/wwf.svg",
+                "logo": "/static/images/resources/wwf.svg",
                 "site": "https://www.worldwildlife.org/species/seals"
             },
             {
                 "name": "Seal Conservation Society",
-                "logo": "/images/resources/scs.svg",
+                "logo": "/static/images/resources/scs.svg",
                 "site": "https://www.pinnipeds.org/"
             }
         ]
     },
     "contactData": {
-        "duckies": "/images/contact/duckies.svg",
+        "duckies": "/static/images/contact/duckies.svg",
         "title": "Contact Us",
         "form": {
             "name": "Name",
@@ -98,6 +98,6 @@
         }
     },
     "footerData": {
-        "logo": "/images/contact/logo.svg"
+        "logo": "/static/images/contact/logo.svg"
     }
 }
