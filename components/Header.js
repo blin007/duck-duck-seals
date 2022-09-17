@@ -30,7 +30,7 @@ const Header = ({ headerData, navData }) => {
     <header 
         className={`${headerTop ? 'bg-white p-2 drop-shadow-xl opacity-40' : 'bg-header p-[30px]'}
         fixed rounded-b-lg w-full left-0 right-0 mx-auto max-w-[70vw]
-        lg:max-w-[900px] z-top flex hover:shadow-2xl hover:scale-105 hover:opacity-100
+        lg:max-w-[1100px] z-top flex hover:shadow-2xl hover:scale-105 hover:opacity-100
         lg:justify-around justify-between items-center transition-all duration-500`}
     >
         <div className='flex gap-x-[10px]'>

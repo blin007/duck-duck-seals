@@ -9,7 +9,7 @@ const NavMobile = ({ navData }) => {
         {navData.map((item, i) => {
           return (
             <li key={i}>
-              <Link href={item.href}>
+              <Link href={`#${item.href}`}>
                 <a className='text-white hover:text-accent-hover'>
                   {item.name}
                 </a>

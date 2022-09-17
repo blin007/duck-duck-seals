@@ -13,8 +13,8 @@ const Slider = ({ facts }) => {
         const { fact } = f
         return (
           <SwiperSlide key={i}>
-            <div className='bg-white rounded-lg p-10 py-20 '>
-              <p className='font-light hover:drop-shadow-sm'>{fact}</p>
+            <div className='bg-white rounded-2xl p-12 min-h-[100px] h-[175px]'>
+              <p className='font-light hover:drop-shadow-sm text-center'>{fact}</p>
             </div>
           </SwiperSlide>
         )

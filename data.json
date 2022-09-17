@@ -24,36 +24,40 @@
         "logo": "/images/header/logo.svg"
     },
     "navData": [
-        {"name": "About", "href": "about"},
-        {"name": "How to Help", "href": "how"},
+        {"name": "Ecological Cornerstones", "href": "ecology"},
+        {"name": "Climate Change", "href": "climate"},
         {"name": "Resources", "href": "resources"},
         {"name": "Contact Us", "href": "contact"}
     ],
     "aboutData": {
-        "title": "About us",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor at risus. In massa tempor nec feugiat.",
-        "boxDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At in tellus integer feugiat scelerisque varius morbi enim.",
+        "title": "Ecological Cornerstones",
+        "description1": "Both seals and ducks play a keyrole in their respective ecosystems.",
+        "description2": "While seals help to maintain stability in the marine food chain, they also contribute greatly to the nutrient circulation in our oceans",
+        "description3": "Ducks, particularly waterfowls, play a keyrole in wetland ecosystem. Ducks can introduce new species to new wetland environments. Due to their migratory behaviors, they often disperse nutrients or animals by accidently dropping them or just dropping their food remains. This can then increase biodiversity the of that region.",
+        "boxDescription": "Climate Change has become the greatest threat to artic wildlife including seals. Furthermore, deforestation and wetland destruction poses a danger to ducks.",
         "duck": "/images/about/duck.svg"
     },
     "factData" : {
         "title": "Facts",
         "facts": [
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."},
-            {"fact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean."}
+            {"fact": "Seals belong to the marine mammal group known as the pinnipeds, which is composed of walruses, seals and sea lions. The classification 'pinnipeds' refers to their flippered feet"},
+            {"fact": "Climate change poses a great threat to many pinnipeds. For instance, species of Artic seals rely on the ice to mate, and other species rely on ice formations to forage for food."},
+            {"fact": "Seals spend most of their lives underneath the water, only coming ashore to mate, give birth, and evade predators."},
+            {"fact": "The gargantuan elephant seal, averaging 8000 pounds, can hold their breath for up to two hours and dive to depths up to 6500 feet."},
+            {"fact": "Elephant seals have a high percent of carbon monoxide in their blood. This is attributed to the fact that they take long deep dives. The abnormal levels of carbon monoxide helps prevent cell damage after long periods of restricted blood flow."},
+            {"fact": "Although the majority of seals live in saltwater marine environments, the Baikal seal, one of the smallest seals, spends its entire life in Lake Baikal, a freshwater lake in Siberia."},
+            {"fact": "Ducks build their nests in dense, grassy areas near wetlands because grass lands help conceal their nests so that predators have more trouble finding them."},
+            {"fact": "While male seals can have multiple partners, ducks typically have one partner at a time."},
+            {"fact": "Most species of ducks actually do not 'quack'. Instead, they make a variety of different calls ranging from whistles, yodles, and grunts. Only a few species, such as female mallard ducks make the 'quack' sound."},
+            {"fact": "Ducks are reliant on daylight to make eggs. More sunlight means more eggs. Typically ducks need around 16 hours to lay one egg. To get by this, many farmers utilize artificial light to get ducks to lay more eggs than they would otherwise."},
+            {"fact": "Ducks have incredible vision. They can see roughly two to three times farther than humans. Furthermore, they see colors more vibrantly, which gives them exceptional light sensitivity."}
         ]
     },
     "howData": {
-        "title": "How to Help",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A lacus vestibulum sed arcu non odio euismod lacinia. Iaculis urna id volutpat lacus laoreet non curabitur gravida arcu. Non sodales neque sodales ut etiam sit amet nisl. Etiam sit amet nisl purus. Quam viverra orci sagittis eu volutpat. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Penatibus et magnis dis parturient montes nascetur ridiculus mus. Vitae semper quis lectus nulla at volutpat. Vivamus arcu felis bibendum ut tristique et. Curabitur gravida arcu ac tortor dignissim.",
+        "title": "The Threat of Climate Change",
+        "description1": "Historically, both ducks and seals faced threats from hunting. Fortunately, hunting is more regulated today. However, climate change still poses to be the greates threat for both ducks and seals. ",
+        "description2": "To help conserve wetlands and ducks, Ducks Unlimited (DU) acquires and restores grasslands to improve duck nest survivability. ",
+        "description3": "With the turn of the 21st century, seals are in even more danger due to the warming of the polar caps. Many Artic-dwelling pinnipeds rely on the ice to mate and forage for food.",
         "seal": "/images/how/seal.svg"        
     },
     "resourceData": {

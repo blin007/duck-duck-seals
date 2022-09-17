@@ -7,10 +7,10 @@ import { motion } from 'framer-motion'
 import { container, fadeInFromUp, springFromRight } from '../variants'
 
 const About = ({ aboutData }) => {
-  const { title, description, boxDescription, duck} = aboutData
+  const { title, description1, description2, description3, boxDescription, duck} = aboutData
 
   return (
-    <section className='lg:mb-[120px] mb-[60px]' id="about">
+    <section className='lg:mb-[180px] mb-[60px]' id="ecology">
       <motion.div
         variants={container}
         initial="initial"
@@ -21,8 +21,14 @@ const About = ({ aboutData }) => {
         <div className='flex flex-col lg:flex-row lg:gap-x-[100px] gap-y-[10px] justify-center items-center'>
           <motion.div variants={fadeInFromUp} className='flex-1 font-bold'>
             <h3 className='text-primary'>{title}</h3>
-            <p className='font-light leading-[30px] max-w-[500px] lg:mt-[40px] mt-[20px] lg:mb-[50px] mb-[20px]'>
-              {description}
+            <p className='font-light leading-[30px] max-w-[600px] lg:mt-[40px] mt-[20px] mb-[20px]'>
+              {description1}
+            </p>
+            <p className='font-light leading-[30px] max-w-[600px] mb-[20px]'>
+              {description2}
+            </p>
+            <p className='font-light leading-[30px] max-w-[600px] lg:mb-[50px] mb-[20px]'>
+              {description3}
             </p>
             {/* text box */}
             <div
