@@ -8,7 +8,7 @@ const Nav = ({ navData, header }) => {
         {navData.map((item, i) => {
           return (
             <li key={i}>
-              <Link href={item.href}>
+              <Link href={`#${item.href}`} scroll={false}>
                 <a className={`${header ? 'text-scrollHeader hover:text-accent-hover' : 'text-headerText hover:text-accent-hoverHead'}
                 cursor-pointer transition`}>
                   {item.name}

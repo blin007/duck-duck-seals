@@ -10,7 +10,7 @@ const About = ({ aboutData }) => {
   const { title, description, boxDescription, duck} = aboutData
 
   return (
-    <section className='lg:mb-[120px] mb-[60px]'>
+    <section className='lg:mb-[120px] mb-[60px]' id="about">
       <motion.div
         variants={container}
         initial="initial"

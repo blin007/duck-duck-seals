@@ -24,10 +24,10 @@
         "logo": "/images/header/logo.svg"
     },
     "navData": [
-        {"name": "About", "href": "/"},
-        {"name": "How to Help", "href": "/"},
-        {"name": "Resources", "href": "/"},
-        {"name": "Contact Us", "href": "/"}
+        {"name": "About", "href": "about"},
+        {"name": "How to Help", "href": "how"},
+        {"name": "Resources", "href": "resources"},
+        {"name": "Contact Us", "href": "contact"}
     ],
     "aboutData": {
         "title": "About us",

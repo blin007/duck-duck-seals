@@ -9,7 +9,7 @@ import { container, fadeInFromLeft, fadeInFromRight} from '../variants'
 const How = ({ howData }) => {
   const { title, description, seal } = howData 
   return (
-    <section className='mb-[60px] lg:mb-[100px]'>
+    <section className='mb-[60px] lg:mb-[100px]' id="how">
       <motion.div
         variants={container}
         initial="initial"

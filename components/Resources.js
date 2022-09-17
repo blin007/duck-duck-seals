@@ -10,7 +10,7 @@ const Resources = ({ resourceData }) => {
   const { title, description, resources } = resourceData
 
   return (
-    <section className='mb-[60px] min-h-[600px]'>
+    <section className='mb-[60px] min-h-[600px]' id="resources">
       <motion.div
         variants={container}
         initial="initial"

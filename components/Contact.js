@@ -11,7 +11,7 @@ const Contact = ({ contactData }) => {
   const { duckies, title, form } = contactData
 
   return (
-    <section className='bg-accent lg:bg-transparent lg:bg-contact lg:bg-no-repeat lg:bg-left-bottom lg:min-h-[750px] pt-12 max:pb-10 lg:pt-0 relative mb-[10px]'>
+    <section id="contact" className='bg-accent lg:bg-transparent lg:bg-contact lg:bg-no-repeat lg:bg-left-bottom lg:min-h-[750px] pt-12 max:pb-10 lg:pt-0 relative mb-[10px]'>
       <motion.div 
         variants={container}
         initial="initial"
