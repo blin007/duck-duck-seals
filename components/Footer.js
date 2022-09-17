@@ -54,6 +54,13 @@ const Footer = ({ footerData }) => {
             </a> */}
           </div>
         </div>
+        <p className='ml-[10px] text-[10px] text-primary'>
+          Images by 
+            <a href='https://www.freepik.com/author/catalyststuff'> catalyststuff </a> 
+          and 
+            <a href='https://www.freepik.com/author/mamewmy'> mamewmy </a> 
+          on Freepik
+        </p>
       </div>
     </motion.footer>
   )
